@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+*.egg-info/
+
+# local artifacts
+runs/
+outputs/
+lightning_logs/
+wandb/
+data/
+Arc2Face/
+*.ckpt
+*.pt
+*.onnx
+*.safetensors

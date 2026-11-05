@@ -1,0 +1,24 @@
+# Tested with Python 3.10
+torch>=2.1
+numpy<3
+lightning>=2.2
+flow_matching>=1.0
+
+# Arc2Face sampling. transformers must stay on 4.x: the Arc2Face text-encoder wrapper in
+# idflow/arc2face_utils.py relies on the 4.x CLIP implementation (tested with 4.44.2).
+transformers==4.44.2
+diffusers>=0.30,<0.36
+huggingface_hub<1
+accelerate
+safetensors
+insightface
+# GPU build matching your CUDA version; without it face detection falls back to CPU
+onnxruntime-gpu
+opencv-python-headless
+pillow
+tqdm
+gdown
+scipy
+
+# optional experiment tracking (train_idflow.py --wandb_project)
+# wandb

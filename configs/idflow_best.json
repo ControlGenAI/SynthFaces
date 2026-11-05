@@ -1,0 +1,22 @@
+{
+    "epochs": 1000,
+    "guidance_scale": 2.0,
+    "optimizer": "adam",
+    "lr_scheduler": "constant",
+    "model_params": {
+        "lr": 0.0003,
+        "loss_type": "l2",
+        "depth": 2,
+        "hidden_dims": null,
+        "class_nums": [9, 7, 2],
+        "c_embed_dim": 512,
+        "activation_type": "gelu"
+    },
+    "data_params": {
+        "batch_size": 128,
+        "interpolation_aug": true,
+        "val_fraction": 0.15,
+        "seed": 42
+    },
+    "check_every_n_epochs": 100
+}
