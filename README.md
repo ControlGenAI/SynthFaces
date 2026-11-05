@@ -4,6 +4,8 @@ Official code for **ID-Flow**, the controllable identity sampler behind the Synt
 ID-Flow → Arc2Face pipeline that turns sampled identities into face images.
 
 [![arXiv](https://img.shields.io/badge/arXiv-2610.40119-b31b1b.svg)](https://arxiv.org/abs/2610.40119v1)
+[![HF Model](https://img.shields.io/badge/%F0%9F%A4%97%20HF-Model-yellow)](https://huggingface.co/shredder67/id-flow)
+[![HF Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20HF-Dataset-yellow)](https://huggingface.co/datasets/shredder67/synthfaces-faces-balanced)
 **Accepted to BMVC 2026.**
 
 > **SynthFaces: Balanced Large Scale Human Dataset**
