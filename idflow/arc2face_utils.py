@@ -2,7 +2,7 @@
 
 The ``CLIPTextModelWrapper`` and ``project_face_embs`` below are adapted from the official
 Arc2Face repository (https://github.com/foivospar/Arc2Face), MIT License,
-Copyright (c) 2024 Foivos Paraperas Papantoniou. See ``THIRD_PARTY_LICENSES.md``.
+Copyright (c) 2024 Foivos Paraperas Papantoniou.
 The Arc2Face *model weights* are distributed separately by the authors under their own
 (non-commercial) terms; see the README.
 """

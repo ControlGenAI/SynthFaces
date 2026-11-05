@@ -211,8 +211,11 @@ python scripts/export_weights.py --ckpt runs/idflow/checkpoints/last.ckpt --out 
 ## License and acknowledgements
 
 The code in this repository is released under the [MIT License](LICENSE). It builds on
-[Arc2Face](https://github.com/foivospar/Arc2Face) (MIT code; see [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md)),
+[Arc2Face](https://github.com/foivospar/Arc2Face) (MIT code),
 [Flow Matching](https://github.com/facebookresearch/flow_matching), [Stable Diffusion 1.5](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5),
 [InsightFace](https://github.com/deepinsight/insightface) and [FairFace](https://github.com/dchen236/FairFace).
 Model weights from these projects are distributed under their own licenses; the Arc2Face and InsightFace weights are
 restricted to non-commercial use.
+
+We thank the authors of [facebookresearch/flow_matching](https://github.com/facebookresearch/flow_matching), whose
+code we used for ID-Flow training.
